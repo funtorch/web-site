@@ -1,0 +1,94 @@
+body {
+    padding-top: 80px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+a,
+a:hover {
+    color: #750870;
+}
+
+.fab,
+.fas {
+    margin-right: 10px;
+}
+
+#project,
+#app,
+#team {
+    padding-top: 70px;
+}
+
+#navBar {
+    height: 60px;
+    box-shadow: 4px 7px 5px 0 rgba(0, 0, 0, .24);
+}
+
+.navbar-brand {
+    font-size: 45px;
+}
+
+.intro {
+    background-image: url('AppFlow.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.intro-text {
+    background-color: rgba(0, 0, 0, .7);
+    padding: 30px 15px;
+    border-radius: 10px;
+}
+.intro-text h2 {
+    font-size: 2.2rem;
+}
+@media screen and (min-width: 768px) {
+    .intro-text {
+        padding: 40px 100px;
+    }
+    .intro-text h2 {
+        font-size: 3.5rem;
+    }
+}
+
+#project {
+    background-color: #f7f7f9;
+}
+
+.install {
+    max-height: 100px;
+    overflow: hidden;
+    opacity: .5;
+    transition: all .5s ease-in-out;
+}
+
+.install:hover {
+    max-height: 1000px;
+    opacity: 1;
+}
+
+#android a {
+    color: green;
+    border-width: 2px;
+    border-color: green;
+}
+
+#android .btn {
+    width: 330px;
+}
+
+#team, #team li {
+    background-color: #f7f7f9;
+}
+
+footer {
+    background-color: #504264;
+    color: white;
+}

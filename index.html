@@ -1,0 +1,171 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>FunTorch - Sign Language Interpreter App</title>
+</head>
+
+<body data-spy="scroll" data-target="#navBar" data-offset="150">
+
+    <nav id="navBar" class="navbar navbar-expand navbar-light bg-light fixed-top">
+        <div class="container col-lg-8">
+            <ul class="navbar-nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#project">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#app">App</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                </ul>
+        </div>
+    </nav>
+
+    <section id="header" class="pt-3 pb-4 my-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <img class="logo" width=150px height=150px src="logo.png" alt="FunTorch Logo">
+                    <h1 class="display-4 mb-3">FunTorch</h1>
+                </div>
+                <div class="col-12">
+                    <div class="intro">
+                        <div class="intro-text text-light text-center">
+                            <h2 class="font-weight-bold text-center">Sign Language Interpretation</h2>
+                            <p>A team of volunteers from PyTorch Scholarship Challenge from Facebook hosted by Udacity creating awesome Deep Learning models.</p>
+                            <p class="mt-5">Find the project on GitHub:</p>
+                                <a class="btn btn-light btn-lg mr-0 mr-sm-2 mb-2 mb-sm-0" href="https://github.com/coalaroot/Pytorch-challenge-side-project/tree/develop" target="_blank" role="button"><i class="fab fa-github"></i>Main project</a>
+                                <a class="btn btn-light btn-lg" href="https://github.com/forfireonly/SignLanguage" target="_blank" role="button"><i class="fab fa-github"></i>Android app</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="project" class="pb-5">
+        <div class="container text-justify">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-8">
+                    <h2 class="text-center font-weight-bold mb-3">The Main Project</h2>
+                    <p>Sign Languages are languages that use the visual-manual modality to convey meaning. Sign languages are fully-fledged natural languages with their own grammar and lexicon used worldwide not only by the deaf and hard of hearing, but also by hearing individuals, such as those unable to physically speak, those who have trouble with spoken language, or those with deaf family members, such as children of deaf adults.</p>
+                    <p>Although, such languages have been around for a while,there is a very small percentage of world population that knows how to interpret them. Through our project we tried to somehow bridge this communication gap by providing everyone with the opportunity to interpret the hand signs by use of an application or software interface. This sign-language interpreter is just a prototype which is far from perfect and not yet capable of being used in real world conditions, but we believe it is a step in the right direction!</p>
+                    <p>Here we have started small and tried classifying the numbers 0-9 signed using American Sign Language. The most part of the data in form of images has been collected and contributed by the members of our group and other helpful volunteers, using their webcams. The model is a custom-made lightweight Convolution Neural Network with a small number of parameters. The model is currently trained on around 6000 sign language images. It achieves more than 96% testing accuracy.</p>
+                    <p>Have a look at the demo video below.</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/AvHXbdcuj8M?modestbranding=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="app" class="pb-4">
+        <div class="container text-justify">
+            <h2 class="text-center font-weight-bold mt-4 mb-3">Cross-platform App</h2>
+            <div class="row justify-content-center">
+                <p class="col-sm-12 col-lg-8 text-justify">One of our awesome team members went ahead and put together an Android application to serve as an easy interface for our project.</p>
+            </div>
+            <div id="android" class="mt-3 mb-5 text-center">
+                <a class="btn btn-outline-light btn-lg mb-2 mr-2 text-left" href="https://play.google.com/store/apps/details?id=com.annascott.funtorch.signlanguage" target="_blank"><i class="fab fa-google-play"></i>Get it on Google Play</a>
+                <a class="btn btn-outline-light btn-lg mb-2 mr-2 text-left" href="https://drive.google.com/open?id=1lHNQ5hYH758wJISI48o-DDPkewGdq9-L" target="_blank"><i class="fas fa-file-download"></i>Download apk file</a>
+                <a class="btn btn-outline-light btn-lg mb-2 mr-2 text-left" href="https://stdntpartners-my.sharepoint.com/personal/evaristus_ezekwem_studentpartner_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fevaristus_ezekwem_studentpartner_com%2FDocuments%2FDesktop%2FPytorch-challenge-side-project%2Fbin%2Fwindows%2FFuntorch%2Eexe&parent=%2Fpersonal%2Fevaristus_ezekwem_studentpartner_com%2FDocuments%2FDesktop%2FPytorch-challenge-side-project%2Fbin%2Fwindows&slrid=832db49e-c06f-7000-6cc6-e34d15f9cee4" target="_blank"><i class="fab fa-windows"></i>Get app for Windows</a>
+            <a class="btn btn-outline-light btn-lg mb-2 mr-2 text-left" href="https://drive.google.com/file/d/1Wk5XtBT8LsH-4XWEf18umGdxhPgraG5n/view" target="_blank"><i class="fab fa-apple"></i>Get app for MacOS</a>
+            </div>
+            <div class="card-deck">
+                <div class="card border-0">
+                    <img class="card-img-top" src="demo1.gif" alt="Card image cap">
+                    <div class="card-body px-0 px-md-3 mt-4 mt-sm-0">
+                        <h5 class="card-title font-weight-bold">Easy to use</h5>
+                        <p class="card-text">You can just type in the number as a word and see how it is expressed in the sign language.</p>
+                    </div>
+                </div>
+                <div class="card border-0">
+                    <img class="card-img-top d-none d-sm-block" src="demo2.gif" alt="Card image cap">
+                    <div class="card-body px-0 px-md-3">
+                        <h5 class="card-title font-weight-bold">Works both ways</h5>
+                        <p class="card-text">You can do the reverse. Take a picture using your phone via the app and let it interpret and tell you what number you’re expressing.</p>
+                    </div>
+                </div>
+                <div class="card border-0">
+                    <img class="card-img-top d-none d-sm-block" src="demo3.gif" alt="Card image cap">
+                    <div class="card-body px-0 px-md-3 ">
+                        <h5 class="card-title font-weight-bold">Intuitive</h5>
+                        <p class="card-text">It warns you if you’re doing something wrong. Sweetly!</p>
+                    </div>
+                </div>
+            </div>
+
+            <h4 class="mt-3 mt-md-4 mb-4">Alternative installation method</h4>
+            <ol class="install">
+                <li>
+                    <p>Check if you have the Java Developer Kit, version 7 or greater, already installed on your computer by opening a terminal window and typing:</p>
+                    java -version
+                    <p>If JDK is not available, or the version is lower than 7, download it from <a href="https://www.oracle.com/technetwork/java/javase/downloads/index.html" target="_blank">Oracle's website</a>.</p>
+                </li>
+                <li>
+                    <p><a href="https://developer.android.com/studio/" target="_blank">Download Android Studio</a>. Accept the terms and conditions to start the download. Double-click the downloaded file and follow all the prompts. After finishing the installation, the Setup Wizard will download and install some additional components. Be patient, this might take some time depending on your internet speed.
+                    </p>
+                </li>
+                <li>
+                    <p>At the start up of Android Studio, click Check Out project from Version Control, pick GIT and paste the GitHub URL of the project: https://github.com/forfireonly/SignLanguage</p>
+                </li>
+                <li>
+                    <p>Connect your phone to your computer with a USB cable. If you are using Windows, you might need to install the appropriate USB driver for your device.</p>
+                </li>
+                <li>
+                    <p>
+                        Enable Developer Options and USB Debugging:
+                        <ul>
+                            <li>Open the Settings app.</li>
+                            <li>(Only on Android 8.0 or higher) Select System.</li>
+                            <li>Scroll to the bottom and select About phone.</li>
+                            <li>Scroll to the bottom and tap Build number 7 times.</li>
+                            <li>Return to the previous screen to find Developer options near the bottom.</li>
+                            <li>Open Developer options, and then scroll down to find and enable USB debugging.</li>
+                        </ul>
+                    </p>
+                </li>
+                <li>
+                    <p>Run the app on your phone as following:</p>
+                    <p>In Android Studio, click the app module in the Project window and then select Run > Run In the Select Deployment Target window, select your phone, and click OK.</p>
+                </li>
+            </ol>
+        </div>
+    </section>
+
+    <section id="team" class="pb-3">
+        <div class="container text-justify">
+            <h2 class="text-center font-weight-bold mt-4">The Team</h2>
+            <div class="row justify-content-center">
+                <p class="col-sm-12 col-lg-8 mt-3">We are a team of members from all over the globe. We all speak different languages, we belong to different cultures and even different age groups. But, the Udacity PyTorch Challenge and especially this project brought us together and each one of us has contributed to the progress of it!</p>
+                <ul class="text-center col-sm-12 col-lg-8 list-group-flush my-3">
+                    <li class="list-group-item"><a href="https://github.com/evaezekwem" target="_blank">Evaristus Ezekwem</a></li>
+                    <li class="list-group-item"><a href="https://github.com/forfireonly" target="_blank">Anna Scott</a></li>
+                    <li class="list-group-item"><a href="https://github.com/gokriznastic" target="_blank">Gopal Krishna</a></li>
+                    <li class="list-group-item"><a href="https://github.com/Porubova" target="_blank">Anna Porubova</a></li>
+                    <li class="list-group-item"><a href="https://github.com/SamuelCahyawijaya" target="_blank">Samuel Cahyawijaya</a></li>
+                    <li class="list-group-item"><a href="https://github.com/MariannaJan" target="_blank">Marianna Janczak</a></li>
+                </ul>
+                <p class="col-sm-12 col-lg-8 pt-3">We thank everyone at Udacity for this amazing opportunity they gave us not only to learn things individually, but also to work as a team and to interact with people from different parts of the world. It has been a fun ride. Kudos everyone!</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container py-3">
+            <p class="text-center">&copy; 2019 FunTorch</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+</body>
+</html>
