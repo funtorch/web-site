@@ -1,2 +1,2 @@
-# web site proposal
+# torch fun web site proposal
 # 
